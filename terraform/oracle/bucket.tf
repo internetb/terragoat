@@ -34,6 +34,7 @@ resource "oci_objectstorage_bucket" "secretsquirrel2" {
   access_type           = "ObjectRead"
   metadata              = { "data" = "Blockofdata" }
   storage_tier          = "Standard"
+  versioning = "Enabled"
 }
 
 
