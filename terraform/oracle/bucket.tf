@@ -10,6 +10,7 @@ resource "oci_objectstorage_bucket" "secretsquirrel" {
   access_type           = "ObjectRead"
   metadata              = { "data" = "Blockofdata" }
   storage_tier          = "Standard"
+  versioning            = "Disabled"
   freeform_tags = {
     git_commit           = "7a7b957091945f77ecef712a92ac719c8d9a6498"
     git_file             = "terraform/oracle/bucket.tf"
