@@ -1,3 +1,2 @@
-              - name: Prisma Cloud IaC Scan
-                uses: prisma-cloud-shiftleft/iac-scan-action@v1.2
-            
+- name: Prisma Cloud IaC Scan
+  uses: prisma-cloud-shiftleft/iac-scan-action@v1.2
